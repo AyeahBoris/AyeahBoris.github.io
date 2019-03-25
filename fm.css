@@ -1,0 +1,36 @@
+#nav-list
+{
+    list-style-type: none;
+    background-color: rgb(151, 3, 23);
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    width:100%;
+}
+
+#nav-list > li
+{
+
+    display: inline-block;
+    width: 15%;
+    height: 100%;
+}
+
+a.nav-link
+{
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    height: 100%;
+}
+
+#nav-list>li:hover a.nav-link 
+{
+    color: white;
+}
+
+#nav-list>li:hover
+{
+    background-color: black;
+}

@@ -1,0 +1,164 @@
+html
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body
+{
+    position: relative;
+    margin: 0;
+    min-height: 100%;
+    background-color: #111111f3;
+    background-image: url("cap2.PNG");
+}
+
+p, li
+{
+    color: dimgrey;
+}
+
+.centred
+{
+    text-align: center;
+}
+
+
+#nav-list
+{
+    list-style-type: none;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    width:100%;
+}
+
+#nav-list > li
+{
+
+    display: inline-block;
+    width: 15%;
+    height: 100%;
+}
+
+a.nav-link
+{
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    height: 100%;
+}
+
+#nav-list>li:hover a.nav-link 
+{
+    color: white;
+}
+
+#nav-list>li:hover
+{
+    background-color: black;
+}
+
+
+div#presentation, div#hobbies
+{
+    margin-bottom: -16px;
+    margin-top: -16px;
+}
+
+div#presentation
+{
+    background-color: rgba(202, 68, 75, 0.795);
+}
+div#hobbies
+{
+    background-color: rgb(7, 44, 51);
+}
+
+div#football
+{
+    position: relative;
+    background-color: rgba(63, 5, 24, 0.795);
+
+}
+
+div#fav
+{
+    position: relative;
+    background-color: rgba(30, 29, 95, 0.795);
+
+}
+
+div#FM
+{
+    position: relative;
+    background-color: rgba(245, 234, 173, 0.795);
+}
+
+div#hobbies-list, div#fav
+{
+    width: 15%;
+    margin: auto;
+}
+div#hobbies ol li, div#fav ol li
+{
+    list-style-type: upper-roman;
+    list-style-position: inside;
+    text-align: left;
+}
+
+p.differentP
+{
+    color: #e77669;
+}
+
+#footer
+{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+ #img1 {
+    border: 1px solid rgb(20, 20, 20);
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+  #img2 {
+    border: 1px solid rgb(20, 20, 20);
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    position: absolute;
+    right: 0%;
+  }
+  cap {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    position: right;
+  }
+
+#image{
+    position: relative;
+    
+  }
+  /* #in {
+    position: absolute;
+    right: 0%;
+    width: 20%;
+    top: 0%;
+    border: 5px solid red;
+  } */
+/* .img{
+    width: 9.5%;
+    height: 100%;
+    right: 0%;
+    top: 0%;
+    position: absolute;
+  } */
